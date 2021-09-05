@@ -1,0 +1,109 @@
+body {
+    background: rgb(199, 127, 238);
+    font-family: verdana;  /* configura o TEXTO do BODY */
+    max-width: 700px;  /* configura a largura do caixa do CONTAINER do POST, que está no BODY, se adpta a tela */
+    margin: auto;  /* configura imagen a MARGIM AUTOMATICA para os dois lado tela */
+}
+
+.photo {  /* configurando a sessão do PHOTO */
+    background: #fff; 
+    padding: 15px;  /* Espaçamento entre as sessões do html */
+    margin: 10px;    /* Adiciona a Margim entre as sessões do html */
+    border: 3px solid #505050;  /* Adiciona a Borda na sessão do html */
+    border-radius: 5px;  /* Configura a borda do POST */
+}
+
+.js, .html5, .css, .java, .nodejs, .sql {   /* Configura todas as imagens das linguagens de programação da SESSÃO PHOTO*/
+    width: 70px;
+    position: relative;
+    left: 15px;
+    top: -20px;
+}
+
+.photo_header {  /* configurando a imagen do PHOTO_HEADER */
+    width: 180px;
+    border-radius: 5px;
+}
+
+#title {  /* configura o TEXTO do H1 */
+    position: relative;
+    right: 16px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.subtitle {
+    margin: 15px;
+}
+
+#title, .subtitle, .post_title { /* Colocou a mesma cor no h1,h2,h3 */
+    color: #000;
+}
+
+a {
+    text-decoration: none;  /* configurando a LINHA do TEXTO da LISTA, esconde ela */
+    color: #505050;
+}
+
+#post_title {   /* configura o TEXTO do H3 do POST */
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #fff;
+    padding: 15px;  /* Espaçamento entre as sessões do html */
+    border:  3px solid #505050; /* Adiciona a Borda na sessão do html */
+    margin: 15px;  /* Adiciona a Margim entre as sessões do html */
+    border-radius: 5px;  /* configura a borda do POST */
+}
+
+.post_content {  /* configurando conteudo do TEXTO do POST */
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize; /* configurando conteudo do TEXTO do POST, primeira letra em MAÍUSCULA */
+    text-align: justify;
+}
+
+.post_image {     /* configurando a imagen do POST */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;    /* configurando a imagen do POST, o tamanho dela , para não vazar o elemento de fora. */
+}
+
+#contacts_list  {
+    right: 100px;
+    top: -940px;
+    position: relative;
+    float: right;
+    margin: 40px 10px 0 0;
+}
+
+#contacts_list ul {
+    padding: 0px 0px 0px 0px;  /* configurando o espaçamento entre itens*/
+    margin: 0px 0 0 0;   /* configurando a margin entre itens*/
+    list-style: none;   /* configurando o marcador da LISTA de CONTATO , esconde ele */
+    line-height: normal;
+}
+
+#contacts_list li {
+    float: left;       /* configurando a flutuação do menu LI*/
+    margin: 0px 0px 0px 1px;   /* configurando a margin entre itens*/
+}
+
+#contacts_list a {
+    height: 28px;   
+    width: auto;
+    display: block;  
+    color: #000;
+    text-decoration: underline; /* configurando a LINHA do TEXTO da LISTA */
+    padding: 12px 20px 0px 20px;  /* configurando o espaçamento entre itens*/
+}
+
+#contacts_list a:hover {
+    color: rgb(199, 127, 238);
+    text-decoration: underline;
+    font-style: verdana;
+}
