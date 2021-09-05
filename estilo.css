@@ -13,8 +13,8 @@ body {
     border-radius: 5px;  /* Configura a borda do POST */
 }
 
-.js, .html5, .css, .java, .nodejs, .sql {   /* Configura todas as imagens das linguagens de programação da SESSÃO PHOTO*/
-    width: 70px;
+.js, .html5, .css, .c, .nodejs, .sql {   /* Configura todas as imagens das linguagens de programação da SESSÃO PHOTO*/
+    width: 85px;
     position: relative;
     left: 15px;
     top: -20px;
